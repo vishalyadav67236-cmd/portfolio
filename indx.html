@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Portfolio</div>
+      <div class="menu-toggle">☰</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- CV Download -->
+      <a href="cv.pdf" class="btn" download>Download CV</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="content">
+      <h3>Hello, I'm</h3>
+      <h1>Vishal Kumar</h1>
+      <h2>And I'm a <span id="role"></span></h2>
+      <p>I create beautiful and functional websites using modern web technologies.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="#contact" class="btn2">Contact Me</a>
+    </div>
+    <div class="image">
+      <img src="/images/vishalff.jpg" alt="My photo">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web developer with expertise in HTML, CSS, and JavaScript. 
+      I love building modern, responsive, and user-friendly websites.
+    </p>
+  </section>
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-box">
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>React</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="service-container">
+      <div class="service">Web Design</div>
+      <div class="service">Frontend Development</div>
+      <div class="service">Data Structures and Algorithms</div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">Project 1</div>
+      <div class="project">Project 2</div>
+      <div class="project">Project 3</div>
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="your name" required>
+      <input type="email" placeholder="your email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Vishal Kumar | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
